@@ -17,5 +17,7 @@ def setup(bot):
 
 
 @module.commands('helloworld')
+@module.example('.helloworld')
 def hello_world(bot, trigger):
+    """Says 'Hello, world!'."""
     bot.say('Hello, world!')
